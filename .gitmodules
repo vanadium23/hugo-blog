@@ -3,4 +3,5 @@
 	url = https://github.com/de-souza/hugo-flex.git
 [submodule "public"]
 	path = public
-	url = https://github.com/vanadium23/vanadium23.github.io/
+	url = git@github.com:vanadium23/vanadium23.github.io.git
+	branch = master
