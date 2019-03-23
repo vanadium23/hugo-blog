@@ -5,7 +5,7 @@ GoogleAnalytics: UA-63836742-2
 
 Params:
   rss: false
-  color: teal #252627
+  color: "#008080"
   description: Junior CTO
   Logo:
     title: vanadium23
