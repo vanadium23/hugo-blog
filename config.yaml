@@ -1,8 +1,6 @@
 baseURL: 'https://vanadium23.me/'
 languageCode: ru-ru
 title: vanadium23
-theme: hugo-flex
-# theme: hello-friend-ng
 GoogleAnalytics: UA-63836742-2
 
 Params:
