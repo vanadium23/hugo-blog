@@ -1,8 +1,14 @@
+{{ define "preload" }}
+  {{- .Scratch.Add "css" (slice (resources.Get "css/likely.css"))}}
+  {{- .Scratch.Add "js" (slice (resources.Get "js/likely.js"))}}
+{{ end }}
+
 {{ define "main" }}
 
 <article>
   {{ partial "heading.html" . }}
   {{ .Content }}
+  {{ partial "likely.html" . }}
   {{ partial "tags.html" . }}
 </article>
 
