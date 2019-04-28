@@ -55,19 +55,17 @@ code {
   padding: 0.5rem 1rem;
 }
 
-.Heading {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
 .Heading-title {
   margin: 1.5rem 0.5rem 0 0;
 }
 
 .Heading-link {
   color: inherit;
+}
+
+.Heading-additional {
+  font-size: small;
+  color: rgba(0, 0, 0, .54)
 }
 
 .Tags {
