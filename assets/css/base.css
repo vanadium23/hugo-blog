@@ -142,6 +142,14 @@ a {
   cursor: pointer;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid var(--color-primary);
+}
+
 .theme-switcher {
   display: inline-block;
   margin-top: 0.5rem;
