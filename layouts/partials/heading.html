@@ -8,6 +8,8 @@
       {{ .Format "2 January, 2006" }}
     </time>&middot;
     {{ end }}
+  {{ if eq .Type "posts" }}
   <span>{{ .ReadingTime }} min read</span>
+  {{ end }}
   </div>
 </header>
