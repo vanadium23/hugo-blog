@@ -3,8 +3,6 @@
 {{ where .Pages "Type" "in" site.Params.mainSections | .Paginate | .Scratch.Set "paginator" }}
 {{ range (.Scratch.Get "paginator").Pages }}
 {{ with .Content }}{{ end }}
-{{ .Scratch.Get "css" | $.Scratch.Set "css" }}
-{{ .Scratch.Get "js" | $.Scratch.Set "js" }}
 {{ end }}
 
 {{ end }}
