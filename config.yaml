@@ -18,9 +18,9 @@ taxonomies:
 
 menu:
   nav:
-    - identifier: dev
-      name: Dev (Eng)
-      url: /tags/dev/
+    - identifier: projects
+      name: Projects
+      url: /projects/
       weight: 1
     - identifier: about
       name: About
