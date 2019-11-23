@@ -10,6 +10,7 @@
 {{ define "main" }}
 
 {{ range (.Scratch.Get "paginator").Pages }}
+{{ if not .Params.private }}
 <article>
   {{ partial "heading.html" . }}
   {{ .Summary }}
@@ -17,6 +18,7 @@
     <a href="{{ .RelPermalink }}">Читать дальше</a>
   {{ end }}
 </article>
+{{ end }}
 {{ end }}
 {{ .Scratch.Get "paginator" | partial "pagination.html" }}
 
