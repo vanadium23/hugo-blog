@@ -1,32 +1,29 @@
 ---
 layout: page
+title: Ivan Chernov
 permalink: /about/
+private: true
+date: 2019-12-20T17:00:00+03:00
 ---
 
-```python
-import this  # Never forget about Zen of Python
-import antigravity  # With <3 to xkcd
-import requests
+# Contacts
 
+* [chernoffivan+blog@gmail.com](mailto:chernoffivan+blog@gmail.com)
+* [LinkedIn](https://www.linkedin.com/in/vanadium23)
+* [GitHub](https://github.com/vanadium23)
+* [CV](https://vanadium23.me/cv.pdf)
 
-class Vanadium23:
-    def __init__(self):
-        # Techonologies
-        self.languages = ['Python', 'JavaScript']
-        self.frameworks = [
-            'Django', 'flask', 'aiohttp', 'react']
-        self.technologies = [
-            'Redis', 'PostgresSQL', 'git', 'Docker']
-        self.editor = 'VS Code'
+# Projects
 
-        # Personal info
-        self.first_name = 'Ivan'
-        self.last_name = 'Chernov'
-        self.email = 'chernoffivan+blog@gmail.com'
+* (RU) [Пятиминутка Python](https://anchor.fm/fiveminutepython/) - a podcast about news in Python community.
+* [Django-db-comments](https://github.com/vanadium23/django-db-comments/) - add help_text to database schema in Django.
+* (RU) [Всратые хаты](https://t.me/nastyhut) - ugly design in flats.
+* (RU) [Настольный случай](https://boardcase.me/) - a podcast about board games.
+* [Guess repository language](https://vanadium23.me/detect-repo-lang/) - quiz about language of trending GitHub repos.
 
-    def download_cv(self):
-        response = requests.get(
-            'https://vanadium23.me/cv.pdf'
-        )
-        response.raise_for_status()
-```
+# Speaks
+
+* (RU) [Mission teams](https://vanadium23.me/mission-teams/)
+* (RU) [PipEnv, Pipfile, pip... what?!](https://vanadium23.me/pipenv-pipfile-pip-what/)
+* (RU) [The Ajax, The REST and The GraphQL](https://vanadium23.me/ajax-rest-graphql/)
+

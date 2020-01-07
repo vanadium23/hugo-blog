@@ -9,17 +9,15 @@
 
 {{ define "main" }}
 
-{{ range (.Scratch.Get "paginator").Pages }}
-{{ if not .Params.private }}
-<article>
-  {{ partial "heading.html" . }}
-  {{ .Summary }}
-  {{ if .Truncated }}
-    <a href="{{ .RelPermalink }}">Читать дальше</a>
+{{ range .Pages.GroupByPublishDate "2006" }}
+<h3>{{ .Key }}</h3>
+<ul>
+  {{ range .Pages }}
+  {{ if not .Params.private }}
+  <li>{{ .PublishDate.Format "2006-01-02" }} – <a href="{{ .Permalink }}">{{ .Title }}</a></li>
   {{ end }}
-</article>
+  {{ end }}
+</ul>
 {{ end }}
-{{ end }}
-{{ .Scratch.Get "paginator" | partial "pagination.html" }}
 
 {{ end }}

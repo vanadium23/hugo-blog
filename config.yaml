@@ -18,10 +18,6 @@ taxonomies:
 
 menu:
   nav:
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 1
     - identifier: about
       name: About
       url: /about/
