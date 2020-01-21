@@ -1,7 +1,6 @@
 baseURL: 'https://vanadium23.me/'
 languageCode: ru-ru
 title: vanadium23
-GoogleAnalytics: UA-63836742-2
 
 Params:
   rss: false
