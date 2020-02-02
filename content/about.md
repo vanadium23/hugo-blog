@@ -6,6 +6,9 @@ private: true
 date: 2019-12-20T17:00:00+03:00
 ---
 
+<a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/vanadium23"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span class="bmc-button-text">Buy me a coffee</span></a>
+
+
 # Contacts
 
 * [chernoffivan+blog@gmail.com](mailto:chernoffivan+blog@gmail.com)
