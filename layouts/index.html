@@ -1,6 +1,6 @@
 {{ define "preload" }}
 
-{{ where .Pages "Type" "in" site.Params.mainSections | .Paginate | .Scratch.Set "paginator" }}
+{{ where .Site.Pages "Type" "in" site.Params.mainSections | .Paginate | .Scratch.Set "paginator" }}
 {{ range (.Scratch.Get "paginator").Pages }}
 {{ with .Content }}{{ end }}
 {{ end }}
@@ -9,7 +9,7 @@
 
 {{ define "main" }}
 
-{{ range .Pages.GroupByPublishDate "2006" }}
+{{ range .Site.RegularPages.GroupByPublishDate "2006" }}
 <h3>{{ .Key }}</h3>
 <ul>
   {{ range .Pages }}

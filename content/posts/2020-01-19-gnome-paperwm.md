@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PaperWM для Gnome
-tags: [blog, linux]
+tags: [blog, linux, software]
 slug: gnome-paperwm
 date: 2020-01-19T11:00:00+03:00
 ---

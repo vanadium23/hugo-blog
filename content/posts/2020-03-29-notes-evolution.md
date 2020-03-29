@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Эволюция заметочниц
-tags: [blog, notetaking, software]
+tags: [blog, note-taking, software]
 slug: notes-evolution
 date: 2020-03-29T09:00:00+03:00
 ---
