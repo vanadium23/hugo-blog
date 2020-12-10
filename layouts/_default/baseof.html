@@ -64,6 +64,9 @@
       ga('create', '{{.Site.GoogleAnalytics}}', 'auto');
       ga('send', 'pageview');
   </script>
-{{- end}}
+  {{- end}}
+  {{- if .Site.Params.CloudflareInsights }}
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "{{.Site.Params.CloudflareInsights}}"}'></script><!-- End Cloudflare Web Analytics -->
+  {{- end }}
 </body>
 </html>
