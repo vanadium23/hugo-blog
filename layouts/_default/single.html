@@ -1,18 +1,8 @@
-{{ define "preload" }}
-  {{ if eq .Type "posts" }}
-    {{- .Scratch.Add "css" (slice (resources.Get "css/likely.css"))}}
-    {{- .Scratch.Add "js" (slice (resources.Get "js/likely.js"))}}
-  {{ end }}
-{{ end }}
-
 {{ define "main" }}
 
 <article>
   {{ partial "heading.html" . }}
   {{ .Content }}
-  {{ if eq .Type "posts" }}
-    {{ partial "likely.html" . }}
-  {{ end }}
   {{ partial "tags.html" . }}
 </article>
 
