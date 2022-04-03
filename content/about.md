@@ -15,6 +15,7 @@ date: 2019-12-20T17:00:00+03:00
 
 # Projects
 
+* TS [obsidian-advanced-new-file](https://github.com/vanadium23/obsidian-advanced-new-file) - plugin to create file in chosen folder for Obsidian.
 * TS [markdown-hashtags](https://github.com/vanadium23/markdown-hashtags) - hashtag panel for markdown files in Vs Code.
 * 🇷🇺 [Chernov sharit](https://t.me/chernov_sharit) - link-blog with news from IT.
 * 🇷🇺 🎧 [Пятиминутка Python](https://anchor.fm/fiveminutepython/) - a podcast about news in Python community.
